@@ -1,0 +1,44 @@
+main {
+    font-size: 0px;
+}
+
+div {
+    border: 1px solid black;
+}
+
+.outer {
+    width: 800px;
+    height: 500px;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+}
+
+.top {
+    width: 50%;
+    height: 40%;
+    display: inline-block;
+}
+
+.bottom {
+    width: 33.33%;
+    height: 60%;
+    display: inline-block;
+}
+
+.top.one {
+    background-color: green;
+}
+
+.top.two {
+    background-color: blue;
+}
+
+.bottom.one {
+    background-color: gray;
+}
+
+.bottom.two {
+    background-color: orange;
+}
